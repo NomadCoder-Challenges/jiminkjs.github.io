@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link ref="stylesheet" href="src/style.css">
+    <title>My Momentum</title>
+</head>
+<body>
+    
+    <form id="login-form">
+        <input id="username" type="text" maxlength="15" value="" placeholder="Enter your name :)" required>
+        <button>LOG IN</button>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    
+    <div id="js-clock">
+        <h1 id="clock-title"></h1>
+    </div>
+    
+    <div id="weather">
+        <span></span><br>
+        <span></span>
+    </div><br>
+    
+    <form id="todo-form">
+        <input type="text" size="40" placeholder="Write today TODOs and Press the Enter!" required>
+    </form>
+    <ul id="todo-list"></ul>
+
+    
+    <!-- <script src="src/background.js"></script> -->
+    <script src="src/clock.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/todo.js"></script>
+</body>
+</html>
+
+
+<!--
+(v) 실시간 시계
+() 로컬 스토리지를 사용한 로그인
+() 로컬 스토리지를 사용한 투두리스트
+() 랜덤 배경 이미지
+(v) 날씨와 위치 (geolocation)
+() 여러분의 CSS 실력을 뽐내주세요💖
+
+
+
+-->
